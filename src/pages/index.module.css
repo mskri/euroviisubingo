@@ -1,0 +1,19 @@
+.footer {
+  margin: 1.25em auto;
+  font-size: 1.4rem;
+  display: inline-block;
+  padding: 0.3em 0.75em 0.5em;
+  color: #2e8bcc;
+
+  & a,
+  & a:active,
+  & a:visited {
+    color: #2e8bcc;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  & a:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,9 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  width: 72vh;
+  max-width: 80vw;
+  max-height: 72vh;
+  margin: 0 auto;
+}

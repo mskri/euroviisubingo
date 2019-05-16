@@ -1,0 +1,44 @@
+{
+  "name": "euroviisubingo.fi",
+  "private": true,
+  "description": "Luo itsellesi viisubingo vuoden 2019 euroviisuihin",
+  "version": "0.1.0",
+  "author": "Sakari Mursu <sakari@mursu.dev>",
+  "dependencies": {
+    "gatsby": "^2.4.1",
+    "gatsby-cli": "^2.5.12",
+    "gatsby-plugin-google-analytics": "^2.0.19",
+    "gatsby-plugin-manifest": "^2.0.28",
+    "gatsby-plugin-postcss": "^2.0.7",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "classnames": "^2.2.6",
+    "postcss-custom-media": "^7.0.8",
+    "postcss-hexrgba": "^1.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.1.2",
+    "prettier": "^1.17.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saple/euroviisubingo.fi"
+  },
+  "bugs": {
+    "url": "hhttps://github.com/saple/euroviisubingo.fi/issues"
+  }
+}
