@@ -31,13 +31,17 @@
   margin-bottom: auto;
   height: auto;
   word-wrap: break-word;
-  font-size: 1rem;
+  font-size: 0.7rem;
+
+  @media (min-width: 380px) {
+    font-size: 0.9rem;
+  }
 
   @media (min-width: 640px) {
     font-size: 1.6rem;
   }
 
   @media print {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
