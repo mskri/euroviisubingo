@@ -3,7 +3,10 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import BingoGrid from "../components/bingo-grid/BingoGrid";
 import { BingoProvider, BingoConsumer } from "../bingo-context";
+import classNames from "classnames/bind";
 import styles from "./index.module.css";
+
+const cx = classNames.bind(styles);
 
 const IndexPage = () => (
   <Layout>
@@ -29,6 +32,9 @@ const IndexPage = () => (
             <BingoGrid />
             <footer className={styles.footer}>
               <a href="https://euroviisubingo.fi">euroviisubingo.fi</a>
+              <div className={cx(styles.madeBy, "hidden-print")}>
+                made by <a href="https://mursu.dev">mursu.dev</a>
+              </div>
             </footer>
           </React.Fragment>
         )}
