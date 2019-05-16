@@ -30,6 +30,11 @@ const IndexPage = () => (
               <h2>Tel Aviv 2019</h2>
             </header>
             <BingoGrid />
+            <p className={cx(styles.guide, "hidden-print")}>
+              Voit sekoittaa ruudut lataamalla sivun uudelleen.
+              <br />
+              <button onClick={() => window.print()}>Tulosta tämä sivu</button>
+            </p>
             <footer className={styles.footer}>
               <a href="https://euroviisubingo.fi">euroviisubingo.fi</a>
               <div className={cx(styles.madeBy, "hidden-print")}>

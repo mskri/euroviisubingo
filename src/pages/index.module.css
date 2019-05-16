@@ -1,8 +1,15 @@
+.guide {
+  font-size: 1.2rem;
+
+  button {
+    margin-top: 0.25em;
+  }
+}
+
 .footer {
-  margin: 1.25em auto 0.5em;
+  margin: 1em auto 0.5em;
   font-size: 1.4rem;
   display: inline-block;
-  padding: 0.3em 0.75em 0.5em;
   color: #2e8bcc;
 
   & a,
@@ -20,6 +27,6 @@
 
 .madeBy {
   font-size: 1.1rem;
-  margin-bottom: 1.25em;
+  margin: 0.25em auto 1.25em;
   color: #444;
 }
