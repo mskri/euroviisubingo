@@ -8,7 +8,6 @@ import styles from "./index.module.css";
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Euroviisubingo 2019"
       keywords={[
         `euroviisut`,
         `tel aviv`,
