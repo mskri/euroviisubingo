@@ -33,10 +33,14 @@ const IndexPage = () => (
             <p className={cx(styles.guide, "hidden-print")}>
               Voit sekoittaa ruudut lataamalla sivun uudelleen.
               <br />
-              <button onClick={() => window.print()}>Tulosta tämä sivu</button>
+              <button onClick={() => window.print()}>
+                Tulosta tämä sivu
+              </button>
             </p>
             <footer className={styles.footer}>
-              <a href="https://euroviisubingo.fi">euroviisubingo.fi</a>
+              <a href="https://euroviisubingo.netlify.com">
+                euroviisubingo.netlify.com
+              </a>
               <div className={cx(styles.madeBy, "hidden-print")}>
                 made by <a href="https://mursu.dev">mursu.dev</a>
               </div>
